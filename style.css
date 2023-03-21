@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+
+}
+header{display: flex;
+    flex-direction: column;
+    padding-bottom: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.493)), url(imagem/balada2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    min-width: 100wh;
+    min-height: 100hw;
+    box-sizing: border-box;
+
+}
+article{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+    padding-left: 80px;
+
+}
+.logo-2{
+    width: 40px;
+    right: 40px;
+    
+}
+.cabeçalho{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding-left: 10px;
+    font-size: 35px;
+    color:white;
+}
+.menu-1{
+    text-decoration: none;
+    color: white;
+}
+.menu-2{
+    text-decoration: none;
+    color: black;
+}
+.menu-1:hover{
+    color:#C332B1;
+    transition: 0.3 all;
+}
+.menu-itens{
+    display: flex;
+    gap:25px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.menu-itens2{
+    padding-right: 100px;
+}
+.entrar:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,#C332B1,#9E30AB,#6A30DD);
+    transition: 0.3 all;
+    
+}
+.entrar{ 
+    display: flex;
+    padding: 7px 30px;
+    font-size: 20px;
+    background-color: azure;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 280px;
+    gap: 70px;
+    align-items: center;
+}
+.titulo-1{
+    font-size: 60px;
+    color: white;
+}
+.crie-uma-conta:hover{
+    font-size: 20px;
+    padding: 14px 34px;
+    transition: 0.3 all;
+}
+.crie-uma-conta{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-image: linear-gradient(to right,#C332B1,#9E30AB,#6A30DD);
+    padding: 12px 30px;
+    border-radius: 40px;
+}
+.p-1{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: rgb(99, 99, 99);
+    gap: 50px;
+    padding: 26px;
+    border-bottom: 1px solid rgb(0, 0, 0) ;
+    box-sizing: border-box;
+}
+.h3-1{
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.p-2{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    align-content:flex-start;
+    font-size: 18px;
+    padding-bottom: 30px;
+    ;
+    
+}
+body::-webkit-scrollbar{
+        background-color: rgba(0, 0, 0, 0.836);
+        width: 0;
+        right: 0;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+   
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.app{ 
+    border-radius: 10px;
+    
+}
+.play{
+    border-radius: 10px;
+}
+.p-3{
+    padding-top: 25px;
+}
+
+.body-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.473)), url(imagem/balada.webp);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    min-width: 100wh;
+    min-height: 100hw;
+}
+.main-pag2{
+    background-color:white;
+    border-radius: 20px;
+    width: 390px;
+    margin: auto;
+    margin-bottom: 320px;
+    margin-top: 80px;
+}
+.logo-pag2{
+    color:#00000E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 25px;
+}
+.h2-pag2{
+    color: #00000E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.nome{
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.cpf{
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: -35px;
+}
+.validar:hover{
+    cursor: pointer;
+}
+.validar{
+    background-color:#00000E;
+    padding: 10px 65px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: -35px;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.h3-pag2{
+    font-size: 25px;
+    color: #00000E;
+    padding-bottom: -40px;
+}
+.mensagem{
+    color: #00000E;
+    font-weight: bold;
+}
+@media screen and (max-width: 1140px) {
+    .titulo-1{
+        font-size: 45px;
+    }
+    .entrar{ 
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .menu-itens{
+        font-size: 17px;
+    }
+    .logo{
+        font-size: 25px;
+        padding-top: 5px;
+    }
+    .p-3{
+        display: none;
+    }  
+}
+@media screen and (max-width: 800px) {
+    .titulo-1{
+        font-size: 24px;
+    }
+    .crie-uma-conta{
+        font-size: 19px;
+        padding: 10px 25px;
+    }
+    .p-1{
+        color:rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cabeçalho{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        padding-left: 0px;
+        font-size: 30px;
+    }
+    article{
+        padding-left: 0px;
+    }
+    .menu-itens{
+        padding-top: 30px;
+    }
+    .menu-itens2{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-right: 0px;
+    }
+    .conteudo{
+        padding-top: 100px;
+    }
+    .h3-1{
+        padding-bottom: 30px;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .p-2{
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        align-content:flex-start;
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .titulo-1{
+        font-size: 18px;
+    }
+    .crie-uma-conta{
+        font-size: 14px;
+        padding: 8px 22px;
+    }
+    .p-1{
+        color:rgb(255, 255, 255);
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cabeçalho{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        padding-left: 0px;
+        font-size: 20px;
+    }
+    article{
+        padding-left: 0px;
+    }
+    .menu-itens{
+        padding-top: 30px;
+        gap: 14px;
+    }
+    .menu-itens2{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-right: 0px;
+    }
+    .conteudo{
+        padding-top: 100px;
+    }
+    .h3-1{
+        padding-bottom: 30px;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .p-2{
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        align-content:flex-start;
+        font-size: 10px;
+        padding-bottom: 30px;
+    }
+    h4{
+        display: none;
+    }
+    
+}
+  
+
